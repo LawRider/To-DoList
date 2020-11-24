@@ -79,7 +79,7 @@ class ToDoApp:
         for i in date_list:
             print(f"\n{i.date().strftime('%A %d %b')}:")
             rows = self.session.query(Table).filter(Table.deadline ==
-                                               i.date().strftime('%Y-%m-%d')).all()
+                                                    i.date().strftime('%Y-%m-%d')).all()
             if not rows:
                 print("Nothing to do!")
             else:
