@@ -1,7 +1,7 @@
 # To-DoList
-To-Do list emulator (JetBrains Academy's project).
+To-Do list emulator (JetBrains Academy's project)
 
-Used SQLAlchemy which is the Python SQL toolkit and Object Relational Mapper (ORM).
+Used SQLAlchemy which is the Python SQL toolkit and Object Relational Mapper (ORM)
 
 Here is a main menu showing supported operations:
 1) Today's tasks
